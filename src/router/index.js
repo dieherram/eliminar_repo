@@ -11,7 +11,7 @@ const routes = [
     path: '/',
     name: 'Apod',
     component: Apod,
-    alias: ['/'],
+    alias: ['/apod'],
     meta: {
       login: true
     }
